@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+extension UIView {
+    public func printFrame(){
+        print("\(self.frame)")
+    }
+}
